@@ -7,12 +7,15 @@ w VS 2010:
 
 1. otwieramy projekt
 2. klikamy na nim PPM i wchodzimy w ustawienia
-3. w zak≥adce VC++ Directories w oknie "Include Directories" dodajemy úcieøkÍ do folderu ...\SDL_net-1.2.7\include i ...\SDL-1.2.15\include
-	w okienku "Library Directories" dodajemy úcieøki ...\SDL-1.2.15\lib\x86 i ...\SDL_net-1.2.7\lib
+3. w zak≈Çadce VC++ Directories w oknie "Include Directories" dodajemy ≈õcie≈ºkƒô do folderu ...\SDL_net-1.2.7\include i ...\SDL-1.2.15\include
+	w okienku "Library Directories" dodajemy ≈õcie≈ºki ...\SDL-1.2.15\lib\x86 i ...\SDL_net-1.2.7\lib
 
 
 							(WSZYSTKO W FOLDERZE "PLIKI")
 
 
 
-4. W zak≥adce Linker/Input w okienku "Additional Dependencies" dopisujemy "SDLmain.lib".
+4. W zak≈Çadce Linker/Input w okienku "Additional Dependencies" dopisujemy "SDLmain.lib".
+
+SDL instrukcja:
+http://lazyfoo.net/SDL_tutorials/lesson01/windows/msvsnet2010e/index.php
