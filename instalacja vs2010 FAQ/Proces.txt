@@ -1,0 +1,18 @@
+1. Instalacja VS2010
+2.Instalacja VS2010 SP1
+3. Kopiujemy pliki z folderu pliki/win32bin do c:/Windows/Syswow64
+
+
+w VS 2010:
+
+1. otwieramy projekt
+2. klikamy na nim PPM i wchodzimy w ustawienia
+3. w zak³adce VC++ Directories w oknie "Include Directories" dodajemy œcie¿kê do folderu ...\SDL_net-1.2.7\include i ...\SDL-1.2.15\include
+	w okienku "Library Directories" dodajemy œcie¿ki ...\SDL-1.2.15\lib\x86 i ...\SDL_net-1.2.7\lib
+
+
+							(WSZYSTKO W FOLDERZE "PLIKI")
+
+
+
+4. W zak³adce Linker/Input w okienku "Additional Dependencies" dopisujemy "SDLmain.lib".
